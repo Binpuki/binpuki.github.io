@@ -34,8 +34,14 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
+    jekyll-bear-theme (0.1.6)
+      jekyll (~> 4.2)
+      jekyll-redirect-from (~> 0.16.0)
+      webrick (~> 1.7.0)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-redirect-from (0.16.0)
+      jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-seo-tag (2.8.0)
@@ -75,7 +81,7 @@ GEM
       tzinfo (>= 1.0.0)
     unicode-display_width (2.6.0)
     wdm (0.2.0)
-    webrick (1.8.2)
+    webrick (1.7.0)
 
 PLATFORMS
   x64-mingw-ucrt
@@ -83,6 +89,7 @@ PLATFORMS
 DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3.4)
+  jekyll-bear-theme
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
   tzinfo (>= 1, < 3)
