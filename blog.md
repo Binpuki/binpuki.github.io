@@ -1,8 +1,7 @@
 ---
-layout: blog
+layout: archives
 title: Blog
-description: Here be writings
+description: What I'm up to
+nav_header: true
 permalink: /blog
 ---
-
-Here be writings. Mostly mundane, sometimes fanciful.

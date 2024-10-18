@@ -18,38 +18,53 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Violet's little place
+email: binpuki@proton.me
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A little website for myself and my works!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: binpuki_
+github_username:  binpuki
 
 # Build settings
-theme: jekyll-bear-theme
+theme: simply-cyan
+Blog: /blog
+
+# 2. SITE AVALAIBLE FUNCTIONS
+typosize: true # Allows to change the size of the font
+home-posts-limit: 10 # Change the limit of posts displayed on the home page
+
+# 3. IGNORED FILES WHILE building
+# These files are essential to the building of your website, but you don't want them to be built with the others
+exclude:
+  - README.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - simply-cyan.gemspec
+  - .jekyll-cache
+  - LICENSE.txt
+  - CODE_OF_CONDUCT.md
+
+# 4. Plugins
 plugins:
   - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# 5. Collections
+# Authors's list
+collections:
+  categories:
+    output: true
+    permalink: /:collection/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: category
+    values:
+      layout: "categories"
+
+# 6. Jekyll settings
+permalink: pretty # Permalink will be /YYY/MM/DD/page-name/
+timezone: America/Chicago

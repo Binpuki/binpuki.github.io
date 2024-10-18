@@ -1,24 +1,17 @@
 ---
 layout: default
-title: Hello
+title: Home
 ---
 
 
-## An easy to use, minimal, text focused Jekyll theme
+# Welcome!
+Apologies there's not much here at the moment. I can tell you a little about myself though!
+# About me
+Call me Violet! A woman who's main hobby is programming. I got experience in mainly game development with Godot and Unity, but I have created applications in the past too.
 
-[Bear Blog](https://bearblog.dev/) is *"a blogging platform where words matter most"*. 
-
-This is a port of it's theme to Jekyll, with some tweaks. So you can use GitHub Pages to host your blog while getting the same awesome Bear Blog feels.
-
-**Stop worrying about the style, focus on your writing.**
-
-- Looks great on *any* device
-- Tiny, optimized, and awesome pages
-- No trackers, ads, or scripts, *did I mention minimal already?*
-- Auto light and dark themes
-- Tag support, to filter blog pages
-- Quick, *15 minute* setup
-- Gallery view for your images
-- Code highlighting
-
-Have a look around, this website is already themed with **jekyllBear**. If you like it, head over to the GitHub [repository](https://github.com/knhash/jekyllBear) for installation instructions.
+I mainly work with .NET and C#, but I do have experience in Haxe, Java, GML, and GDScript as well. I have minimal experience in Python and C++.
+# Works
+Things I've worked on so far (that I'm proud to showcase) are:
+- [hxWebP](https://github.com/Binpuki/hxWebP)
+- [HoloFunk](https://gamejolt.com/games/holofunk/754195)
+- [LazuNight Funkin'](https://gamejolt.com/games/lazunight/723472)
