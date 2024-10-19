@@ -36,7 +36,7 @@ typosize: true # Allows to change the size of the font
 home-posts-limit: 10 # Change the limit of posts displayed on the home page
 
 include:
- - .well-known/ # Bluesky
+ - .well-known # Bluesky
 
 # 3. IGNORED FILES WHILE building
 # These files are essential to the building of your website, but you don't want them to be built with the others
